@@ -88,6 +88,7 @@
   }
   
   .btn{
+    margin: 7px;
       display: inline-block;
       margin-top: 15px;
       padding: 10px 40px;
@@ -105,9 +106,7 @@
   
   .btn-home{
       display: flex;
-  }
-  .btn-home{
-      margin: 0 10px;
+      margin: 0 20px;
   }
   
   .content{
