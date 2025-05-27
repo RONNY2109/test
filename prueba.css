@@ -1,0 +1,78 @@
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    background-color: #1f1d1d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #101010;
+    padding: 0 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.tittle {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url("https://w.wallhaven.cc/full/d6/wallhaven-d6ypdm.jpg");
+    background-size: cover;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+}
+
+.perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+}
+
+.sobre_mi, .education, .projects, .contact {
+    padding: 50px 200px;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    background: #101010;
+    border-radius: 10px;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    padding: 15px;
+}
+
+.blog-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact {
+    background: #1f1d1d;
+    padding: 40px;
+}
+
+.perfilGIT {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+}
